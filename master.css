@@ -1,0 +1,14 @@
+
+.shougi-ban {
+  position: relative;
+  margin: 30px auto;
+  width: 600px;
+}
+[class^="koma"]:hover img {
+  opacity: 0.8;
+  background-color: #eee;
+  cursor: pointer;
+}
+[class^="koma"]:active{
+  cursor: pointer;
+}

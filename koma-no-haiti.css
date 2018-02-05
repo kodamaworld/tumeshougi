@@ -1,0 +1,132 @@
+:root {
+  --yoko: 60px;
+  --tate: 64px;
+}
+.koma91 img {
+  left: 31px;
+  top: 30px;
+}
+.koma92 img {
+  left: 31px;
+  top: calc(30px + var(--tate));
+}
+.koma93 img {
+  left: 31px;
+  top: calc(30px + calc(var(--tate)*2));
+}
+.koma94 img {
+  left: 31px;
+  top: calc(30px + calc(var(--tate)*3));
+}
+.koma95 img {
+  left: 31px;
+  top: calc(30px + calc(var(--tate)*4));
+}
+.koma96 img {
+  left: 31px;
+  top: calc(30px + calc(var(--tate)*5));
+}
+.koma97 img {
+  left: 31px;
+  top: calc(30px + calc(var(--tate)*6));
+}
+.koma98 img {
+  left: 31px;
+  top: calc(30px + calc(var(--tate)*7));
+}
+.koma99 img {
+  left: 31px;
+  top: calc(30px + calc(var(--tate)*8));
+}
+.koma81 img {
+  left: calc(31px + var(--yoko));
+  top: 30px;
+}
+.koma82 img {
+  left: calc(31px + var(--yoko));
+  top: calc(30px + var(--tate));
+}
+.koma83 img {
+  left: calc(31px + var(--yoko));
+  top: calc(30px + calc(var(--tate)*2));
+}
+.koma84 img {
+  left: calc(31px + var(--yoko));
+  top: calc(30px + calc(var(--tate)*3));
+}
+.koma85 img {
+  left: calc(31px + var(--yoko));
+  top: calc(30px + calc(var(--tate)*4));
+}
+.koma86 img {
+  left: calc(31px + var(--yoko));
+  top: calc(30px + calc(var(--tate)*5));
+}
+.koma87 img {
+  left: calc(31px + var(--yoko));
+  top: calc(30px + calc(var(--tate)*6));
+}
+.koma88 img {
+  left: calc(31px + var(--yoko));
+  top: calc(30px + calc(var(--tate)*7));
+}
+.koma89 img {
+  left: calc(31px + var(--yoko));
+  top: calc(30px + calc(var(--tate)*8));
+}
+.koma71 img {
+  left: calc(31px + calc(var(--yoko)*2));
+  top: 30px;
+}
+.koma72 img {
+  left: calc(31px + calc(var(--yoko)*2));
+  top: calc(30px + var(--tate));
+}
+.koma73 img {
+  left: calc(31px + calc(var(--yoko)*2));
+  top: calc(30px + calc(var(--tate)*2));
+}
+.koma74 img {
+  left: calc(31px + calc(var(--yoko)*2));
+  top: calc(30px + calc(var(--tate)*3));
+}
+.koma75 img {
+  left: calc(31px + calc(var(--yoko)*2));
+  top: calc(30px + calc(var(--tate)*4));
+}
+.koma76 img {
+  left: calc(31px + calc(var(--yoko)*2));
+  top: calc(30px + calc(var(--tate)*5));
+}
+.koma77 img {
+  left: calc(31px + calc(var(--yoko)*2));
+  top: calc(30px + calc(var(--tate)*6));
+}
+.koma78 img {
+  left: calc(31px + calc(var(--yoko)*2));
+  top: calc(30px + calc(var(--tate)*7));
+}
+.koma79 img {
+  left: calc(31px + calc(var(--yoko)*2));
+  top: calc(30px + calc(var(--tate)*8));
+}
+.koma111 img {
+  left: calc(31px + calc(var(--yoko)*8));
+  top: calc(30px + calc(var(--tate)*0));
+}
+.koma59 img{
+  left:271px;
+  top:542px;
+}
+.koma28 img{
+  left: 450px;
+  top: 480px;
+}
+.koma88 img{
+  left: 90px;
+  top: 480px;
+}
+.koma11 img{
+  right: 58px;
+  top: 31px
+}

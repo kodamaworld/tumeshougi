@@ -1,0 +1,106 @@
+$yoko: 60px;
+$tate: 64px;
+
+@mixin haiti($gyou,$retu) {
+  right: (30px + 60px*($gyou - 1));
+  top: (30px + 64px*($retu - 1));
+  position: absolute;
+}
+@mixin koma($url) {
+  width: 60px;
+  height: 64px;
+  background: url($url);
+}
+.ou { @include koma("./japanese-chess/koma/60x64/sgl01.png"); }
+.hisha { @include koma("./japanese-chess/koma/60x64/sgl02.png"); }
+.kaku { @include koma("./japanese-chess/koma/60x64/sgl03.png"); }
+.kin { @include koma("./japanese-chess/koma/60x64/sgl04.png"); }
+.gin { @include koma("./japanese-chess/koma/60x64/sgl05.png"); }
+.kei { @include koma("./japanese-chess/koma/60x64/sgl06.png"); }
+.kyou { @include koma("./japanese-chess/koma/60x64/sgl07.png"); }
+.fu { @include koma("./japanese-chess/koma/60x64/sgl08.png"); }
+
+.koma11 { @include haiti(1,1); }
+.koma12 { @include haiti(1,2); }
+.koma13 { @include haiti(1,3); }
+.koma14 { @include haiti(1,4); }
+.koma15 { @include haiti(1,5); }
+.koma16 { @include haiti(1,6); }
+.koma17 { @include haiti(1,7); }
+.koma18 { @include haiti(1,8); }
+.koma19 { @include haiti(1,9); }
+.koma21 { @include haiti(2,1); }
+.koma22 { @include haiti(2,2); }
+.koma23 { @include haiti(2,3); }
+.koma24 { @include haiti(2,4); }
+.koma25 { @include haiti(2,5); }
+.koma26 { @include haiti(2,6); }
+.koma27 { @include haiti(2,7); }
+.koma28 { @include haiti(2,8); }
+.koma29 { @include haiti(2,9); }
+.koma31 { @include haiti(3,1); }
+.koma32 { @include haiti(3,2); }
+.koma33 { @include haiti(3,3); }
+.koma34 { @include haiti(3,4); }
+.koma35 { @include haiti(3,5); }
+.koma36 { @include haiti(3,6); }
+.koma37 { @include haiti(3,7); }
+.koma38 { @include haiti(3,8); }
+.koma39 { @include haiti(3,9); }
+.koma41 { @include haiti(4,1); }
+.koma42 { @include haiti(4,2); }
+.koma43 { @include haiti(4,3); }
+.koma44 { @include haiti(4,4); }
+.koma45 { @include haiti(4,5); }
+.koma46 { @include haiti(4,6); }
+.koma47 { @include haiti(4,7); }
+.koma48 { @include haiti(4,8); }
+.koma49 { @include haiti(4,9); }
+.koma51 { @include haiti(5,1); }
+.koma52 { @include haiti(5,2); }
+.koma53 { @include haiti(5,3); }
+.koma54 { @include haiti(5,4); }
+.koma55 { @include haiti(5,5); }
+.koma56 { @include haiti(5,6); }
+.koma57 { @include haiti(5,7); }
+.koma58 { @include haiti(5,8); }
+.koma58 { @include haiti(5,8); }
+.koma59 { @include haiti(5,9); }
+.koma61 { @include haiti(6,1); }
+.koma62 { @include haiti(6,2); }
+.koma63 { @include haiti(6,3); }
+.koma64 { @include haiti(6,4); }
+.koma65 { @include haiti(6,5); }
+.koma66 { @include haiti(6,6); }
+.koma67 { @include haiti(6,7); }
+.koma68 { @include haiti(6,8); }
+.koma69 { @include haiti(6,9); }
+.koma71 { @include haiti(7,1); }
+.koma72 { @include haiti(7,2); }
+.koma73 { @include haiti(7,3); }
+.koma74 { @include haiti(7,4); }
+.koma75 { @include haiti(7,5); }
+.koma76 { @include haiti(7,6); }
+.koma77 { @include haiti(7,7); }
+.koma78 { @include haiti(7,8); }
+.koma79 { @include haiti(7,9); }
+.koma81 { @include haiti(8,1); }
+.koma82 { @include haiti(8,2); }
+.koma83 { @include haiti(8,3); }
+.koma84 { @include haiti(8,4); }
+.koma85 { @include haiti(8,5); }
+.koma86 { @include haiti(8,6); }
+.koma87 { @include haiti(8,7); }
+.koma88 { @include haiti(8,8); }
+.koma89 { @include haiti(8,9); }
+.koma91 { @include haiti(9,1); }
+.koma92 { @include haiti(9,2); }
+.koma93 { @include haiti(9,3); }
+.koma94 { @include haiti(9,4); }
+.koma95 { @include haiti(9,5); }
+.koma96 { @include haiti(9,6); }
+.koma97 { @include haiti(9,7); }
+.koma98 { @include haiti(9,8); }
+.koma99 { @include haiti(9,9); }
+
+

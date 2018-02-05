@@ -1,0 +1,451 @@
+.ou {
+  width: 60px;
+  height: 64px;
+  background: url("./japanese-chess/koma/60x64/sgl01.png"); }
+
+.hisha {
+  width: 60px;
+  height: 64px;
+  background: url("./japanese-chess/koma/60x64/sgl02.png"); }
+
+.kaku {
+  width: 60px;
+  height: 64px;
+  background: url("./japanese-chess/koma/60x64/sgl03.png"); }
+
+.kin {
+  width: 60px;
+  height: 64px;
+  background: url("./japanese-chess/koma/60x64/sgl04.png"); }
+
+.gin {
+  width: 60px;
+  height: 64px;
+  background: url("./japanese-chess/koma/60x64/sgl05.png"); }
+
+.kei {
+  width: 60px;
+  height: 64px;
+  background: url("./japanese-chess/koma/60x64/sgl06.png"); }
+
+.kyou {
+  width: 60px;
+  height: 64px;
+  background: url("./japanese-chess/koma/60x64/sgl07.png"); }
+
+.fu {
+  width: 60px;
+  height: 64px;
+  background: url("./japanese-chess/koma/60x64/sgl08.png"); }
+
+.koma11 {
+  right: 30px;
+  top: 30px;
+  position: absolute; }
+
+.koma12 {
+  right: 30px;
+  top: 94px;
+  position: absolute; }
+
+.koma13 {
+  right: 30px;
+  top: 158px;
+  position: absolute; }
+
+.koma14 {
+  right: 30px;
+  top: 222px;
+  position: absolute; }
+
+.koma15 {
+  right: 30px;
+  top: 286px;
+  position: absolute; }
+
+.koma16 {
+  right: 30px;
+  top: 350px;
+  position: absolute; }
+
+.koma17 {
+  right: 30px;
+  top: 414px;
+  position: absolute; }
+
+.koma18 {
+  right: 30px;
+  top: 478px;
+  position: absolute; }
+
+.koma19 {
+  right: 30px;
+  top: 542px;
+  position: absolute; }
+
+.koma21 {
+  right: 90px;
+  top: 30px;
+  position: absolute; }
+
+.koma22 {
+  right: 90px;
+  top: 94px;
+  position: absolute; }
+
+.koma23 {
+  right: 90px;
+  top: 158px;
+  position: absolute; }
+
+.koma24 {
+  right: 90px;
+  top: 222px;
+  position: absolute; }
+
+.koma25 {
+  right: 90px;
+  top: 286px;
+  position: absolute; }
+
+.koma26 {
+  right: 90px;
+  top: 350px;
+  position: absolute; }
+
+.koma27 {
+  right: 90px;
+  top: 414px;
+  position: absolute; }
+
+.koma28 {
+  right: 90px;
+  top: 478px;
+  position: absolute; }
+
+.koma29 {
+  right: 90px;
+  top: 542px;
+  position: absolute; }
+
+.koma31 {
+  right: 150px;
+  top: 30px;
+  position: absolute; }
+
+.koma32 {
+  right: 150px;
+  top: 94px;
+  position: absolute; }
+
+.koma33 {
+  right: 150px;
+  top: 158px;
+  position: absolute; }
+
+.koma34 {
+  right: 150px;
+  top: 222px;
+  position: absolute; }
+
+.koma35 {
+  right: 150px;
+  top: 286px;
+  position: absolute; }
+
+.koma36 {
+  right: 150px;
+  top: 350px;
+  position: absolute; }
+
+.koma37 {
+  right: 150px;
+  top: 414px;
+  position: absolute; }
+
+.koma38 {
+  right: 150px;
+  top: 478px;
+  position: absolute; }
+
+.koma39 {
+  right: 150px;
+  top: 542px;
+  position: absolute; }
+
+.koma41 {
+  right: 210px;
+  top: 30px;
+  position: absolute; }
+
+.koma42 {
+  right: 210px;
+  top: 94px;
+  position: absolute; }
+
+.koma43 {
+  right: 210px;
+  top: 158px;
+  position: absolute; }
+
+.koma44 {
+  right: 210px;
+  top: 222px;
+  position: absolute; }
+
+.koma45 {
+  right: 210px;
+  top: 286px;
+  position: absolute; }
+
+.koma46 {
+  right: 210px;
+  top: 350px;
+  position: absolute; }
+
+.koma47 {
+  right: 210px;
+  top: 414px;
+  position: absolute; }
+
+.koma48 {
+  right: 210px;
+  top: 478px;
+  position: absolute; }
+
+.koma49 {
+  right: 210px;
+  top: 542px;
+  position: absolute; }
+
+.koma51 {
+  right: 270px;
+  top: 30px;
+  position: absolute; }
+
+.koma52 {
+  right: 270px;
+  top: 94px;
+  position: absolute; }
+
+.koma53 {
+  right: 270px;
+  top: 158px;
+  position: absolute; }
+
+.koma54 {
+  right: 270px;
+  top: 222px;
+  position: absolute; }
+
+.koma55 {
+  right: 270px;
+  top: 286px;
+  position: absolute; }
+
+.koma56 {
+  right: 270px;
+  top: 350px;
+  position: absolute; }
+
+.koma57 {
+  right: 270px;
+  top: 414px;
+  position: absolute; }
+
+.koma58 {
+  right: 270px;
+  top: 478px;
+  position: absolute; }
+
+.koma58 {
+  right: 270px;
+  top: 478px;
+  position: absolute; }
+
+.koma59 {
+  right: 270px;
+  top: 542px;
+  position: absolute; }
+
+.koma61 {
+  right: 330px;
+  top: 30px;
+  position: absolute; }
+
+.koma62 {
+  right: 330px;
+  top: 94px;
+  position: absolute; }
+
+.koma63 {
+  right: 330px;
+  top: 158px;
+  position: absolute; }
+
+.koma64 {
+  right: 330px;
+  top: 222px;
+  position: absolute; }
+
+.koma65 {
+  right: 330px;
+  top: 286px;
+  position: absolute; }
+
+.koma66 {
+  right: 330px;
+  top: 350px;
+  position: absolute; }
+
+.koma67 {
+  right: 330px;
+  top: 414px;
+  position: absolute; }
+
+.koma68 {
+  right: 330px;
+  top: 478px;
+  position: absolute; }
+
+.koma69 {
+  right: 330px;
+  top: 542px;
+  position: absolute; }
+
+.koma71 {
+  right: 390px;
+  top: 30px;
+  position: absolute; }
+
+.koma72 {
+  right: 390px;
+  top: 94px;
+  position: absolute; }
+
+.koma73 {
+  right: 390px;
+  top: 158px;
+  position: absolute; }
+
+.koma74 {
+  right: 390px;
+  top: 222px;
+  position: absolute; }
+
+.koma75 {
+  right: 390px;
+  top: 286px;
+  position: absolute; }
+
+.koma76 {
+  right: 390px;
+  top: 350px;
+  position: absolute; }
+
+.koma77 {
+  right: 390px;
+  top: 414px;
+  position: absolute; }
+
+.koma78 {
+  right: 390px;
+  top: 478px;
+  position: absolute; }
+
+.koma79 {
+  right: 390px;
+  top: 542px;
+  position: absolute; }
+
+.koma81 {
+  right: 450px;
+  top: 30px;
+  position: absolute; }
+
+.koma82 {
+  right: 450px;
+  top: 94px;
+  position: absolute; }
+
+.koma83 {
+  right: 450px;
+  top: 158px;
+  position: absolute; }
+
+.koma84 {
+  right: 450px;
+  top: 222px;
+  position: absolute; }
+
+.koma85 {
+  right: 450px;
+  top: 286px;
+  position: absolute; }
+
+.koma86 {
+  right: 450px;
+  top: 350px;
+  position: absolute; }
+
+.koma87 {
+  right: 450px;
+  top: 414px;
+  position: absolute; }
+
+.koma88 {
+  right: 450px;
+  top: 478px;
+  position: absolute; }
+
+.koma89 {
+  right: 450px;
+  top: 542px;
+  position: absolute; }
+
+.koma91 {
+  right: 510px;
+  top: 30px;
+  position: absolute; }
+
+.koma92 {
+  right: 510px;
+  top: 94px;
+  position: absolute; }
+
+.koma93 {
+  right: 510px;
+  top: 158px;
+  position: absolute; }
+
+.koma94 {
+  right: 510px;
+  top: 222px;
+  position: absolute; }
+
+.koma95 {
+  right: 510px;
+  top: 286px;
+  position: absolute; }
+
+.koma96 {
+  right: 510px;
+  top: 350px;
+  position: absolute; }
+
+.koma97 {
+  right: 510px;
+  top: 414px;
+  position: absolute; }
+
+.koma98 {
+  right: 510px;
+  top: 478px;
+  position: absolute; }
+
+.koma99 {
+  right: 510px;
+  top: 542px;
+  position: absolute; }
+
+/*# sourceMappingURL=koma.css.map */
