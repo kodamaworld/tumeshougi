@@ -12,3 +12,30 @@
 [class^="koma"]:active{
   cursor: pointer;
 }
+
+* {
+  box-sizing:border-box;
+}
+
+.ban {
+  width: calc(64px * 9);
+  height: calc(64px * 9);
+  display:flex;
+  flex-wrap: wrap;
+  border: solid 1px #000;
+  margin: 0 auto;
+}
+
+.masu {
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+  border: solid 1px #000;
+}
+
+.masu:hover{
+  background: #e7f7f9;
+}
+
+.koma {
+  cursor: pointer;
+}

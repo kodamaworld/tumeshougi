@@ -5,52 +5,139 @@
   <link rel="stylesheet" href="./master.css">
   <!-- <link rel="stylesheet" href="./koma-no-haiti.css"> -->
   <link rel="stylesheet" href="./koma.css">
+  <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
   <title>詰将棋</title>
 </head>
 <body>
+  <!--
   <div class="shougi-ban">
-    <img src="./japanese-chess/board/japanese-chess-b02.jpg" alt="将棋盤">
-    <span class="koma59"><img src="./japanese-chess/koma/60x64/sgl01.png" alt="王"></span>
-    <span class="koma59 "></span>
-    <span class="koma28"><img src="./japanese-chess/koma/60x64/sgl02.png" alt="飛"></span>
-    <span class="koma88"><img src="./japanese-chess/koma/60x64/sgl03.png" alt="角"></span>
-    <span class="koma69"><img src="./japanese-chess/koma/60x64/sgl04.png" alt="金"></span>
-    <span class="koma49"><img src="./japanese-chess/koma/60x64/sgl04.png" alt="金"></span>
-    <span class="koma79"><img src="./japanese-chess/koma/60x64/sgl05.png" alt="銀"></span>
-    <span class="koma39"><img src="./japanese-chess/koma/60x64/sgl05.png" alt="銀"></span>
-    <span class="koma29"><img src="./japanese-chess/koma/60x64/sgl06.png" alt="桂"></span>
-    <span class="koma89"><img src="./japanese-chess/koma/60x64/sgl06.png" alt="桂"></span>
-    <span class="koma99"><img src="./japanese-chess/koma/60x64/sgl07.png" alt="香"></span>
-    <span class="koma19"><img src="./japanese-chess/koma/60x64/sgl07.png" alt="香"></span>
-    <span class="koma17"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
-    <span class="koma27"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
-    <span class="koma37"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
-    <span class="koma47"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
-    <span class="koma57"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
-    <span class="koma67"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
-    <span class="koma77"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
-    <span class="koma87"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
-    <span class="koma97"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
-    <span class="koma51"><img src="./japanese-chess/koma/60x64/sgl41.png" alt="後手王"></span>
-    <span class="koma82"><img src="./japanese-chess/koma/60x64/sgl32.png" alt="後手飛"></span>
-    <span class="koma22"><img src="./japanese-chess/koma/60x64/sgl33.png" alt="後手角"></span>
-    <span class="koma41"><img src="./japanese-chess/koma/60x64/sgl34.png" alt="後手金"></span>
-    <span class="koma71"><img src="./japanese-chess/koma/60x64/sgl34.png" alt="後手金"></span>
-    <span class="koma31"><img src="./japanese-chess/koma/60x64/sgl35.png" alt="後手金"></span>
-    <span class="koma61"><img src="./japanese-chess/koma/60x64/sgl35.png" alt="後手金"></span>
-    <span class="koma13"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
-    <span class="koma23"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
-    <span class="koma33"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
-    <span class="koma43"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
-    <span class="koma53"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
-    <span class="koma63"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
-    <span class="koma73"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
-    <span class="koma83"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
-    <span class="koma93"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
-    <span class="koma91"><img src="./japanese-chess/koma/60x64/sgl37.png" alt="後手香"></span>
-    <span class="koma11"><img src="./japanese-chess/koma/60x64/sgl37.png" alt="後手香"></span>
-    <span class="koma81"><img src="./japanese-chess/koma/60x64/sgl36.png" alt="後手桂"></span>
-    <span class="koma21"><img src="./japanese-chess/koma/60x64/sgl36.png" alt="後手桂"></span>
-  </div>
+  <img src="./japanese-chess/board/japanese-chess-b02.jpg" alt="将棋盤">
+  <span class="koma59"><img src="./japanese-chess/koma/60x64/sgl01.png" alt="王" id="ou"></span>
+  <span class="koma59 "></span>
+  <span class="koma28"><img src="./japanese-chess/koma/60x64/sgl02.png" alt="飛"></span>
+  <span class="koma88"><img src="./japanese-chess/koma/60x64/sgl03.png" alt="角"></span>
+  <span class="koma69"><img src="./japanese-chess/koma/60x64/sgl04.png" alt="金"></span>
+  <span class="koma49"><img src="./japanese-chess/koma/60x64/sgl04.png" alt="金"></span>
+  <span class="koma79"><img src="./japanese-chess/koma/60x64/sgl05.png" alt="銀"></span>
+  <span class="koma39"><img src="./japanese-chess/koma/60x64/sgl05.png" alt="銀"></span>
+  <span class="koma29"><img src="./japanese-chess/koma/60x64/sgl06.png" alt="桂"></span>
+  <span class="koma89"><img src="./japanese-chess/koma/60x64/sgl06.png" alt="桂"></span>
+  <span class="koma99"><img src="./japanese-chess/koma/60x64/sgl07.png" alt="香"></span>
+  <span class="koma19"><img src="./japanese-chess/koma/60x64/sgl07.png" alt="香"></span>
+  <span class="koma17"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
+  <span class="koma27"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
+  <span class="koma37"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
+  <span class="koma47"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
+  <span class="koma57"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
+  <span class="koma67"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
+  <span class="koma77"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
+  <span class="koma87"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
+  <span class="koma97"><img src="./japanese-chess/koma/60x64/sgl08.png" alt="歩"></span>
+  <span class="koma51"><img src="./japanese-chess/koma/60x64/sgl41.png" alt="後手王"></span>
+  <span class="koma82"><img src="./japanese-chess/koma/60x64/sgl32.png" alt="後手飛"></span>
+  <span class="koma22"><img src="./japanese-chess/koma/60x64/sgl33.png" alt="後手角"></span>
+  <span class="koma41"><img src="./japanese-chess/koma/60x64/sgl34.png" alt="後手金"></span>
+  <span class="koma71"><img src="./japanese-chess/koma/60x64/sgl34.png" alt="後手金"></span>
+  <span class="koma31"><img src="./japanese-chess/koma/60x64/sgl35.png" alt="後手金"></span>
+  <span class="koma61"><img src="./japanese-chess/koma/60x64/sgl35.png" alt="後手金"></span>
+  <span class="koma13"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
+  <span class="koma23"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
+  <span class="koma33"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
+  <span class="koma43"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
+  <span class="koma53"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
+  <span class="koma63"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
+  <span class="koma73"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
+  <span class="koma83"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
+  <span class="koma93"><img src="./japanese-chess/koma/60x64/sgl38.png" alt="後手歩"></span>
+  <span class="koma91"><img src="./japanese-chess/koma/60x64/sgl37.png" alt="後手香"></span>
+  <span class="koma11"><img src="./japanese-chess/koma/60x64/sgl37.png" alt="後手香"></span>
+  <span class="koma81"><img src="./japanese-chess/koma/60x64/sgl36.png" alt="後手桂"></span>
+  <span class="koma21"><img src="./japanese-chess/koma/60x64/sgl36.png" alt="後手桂"></span>
+</div>
+-->
+<div class="ban">
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl37.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl36.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl35.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl34.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl31.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl34.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl35.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl36.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl37.png"></div>
+  <div class="masu"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl32.png"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl33.png"></div>
+  <div class="masu"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl38.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl38.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl38.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl38.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl38.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl38.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl38.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl38.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl38.png"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl08.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl08.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl08.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl08.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl08.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl08.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl08.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl08.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl08.png"></div>
+  <div class="masu"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl03.png"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl02.png"></div>
+  <div class="masu"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl07.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl06.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl05.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl04.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl01.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl04.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl05.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl06.png"></div>
+  <div class="masu"><img class="koma" src="./japanese-chess/koma/60x64/sgl07.png"></div>
+</div>
 </body>
 </html>
